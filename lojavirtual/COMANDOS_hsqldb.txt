@@ -1,0 +1,8 @@
+start hsqldb no BD lojavirtual
+java -cp hsqldb.jar org.hsqldb.server.Server --dbname.0 lojavirtual file:lojavirtual
+
+Gerenciador do banco de dados
+java -cp hsqldb.jar org.hsqldb.util.DatabaseManager
+url - 'jdbc:hsqldb:hsql://localhost/lojavirtual'
+usr - "SA"
+psw - ""
